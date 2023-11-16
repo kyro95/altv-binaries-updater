@@ -1,0 +1,30 @@
+# Visual Studio files
+.vscode/
+*.suo
+*.user
+*.suo
+*.user
+*.sln.docstates
+bin/
+obj/
+
+# Rider files
+.idea/
+
+# NuGet packages
+*.nuget/
+*.nupkg
+
+# User-specific files
+*.rsuser
+*.resharper
+*.[Rr]e[Rr]e*
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
