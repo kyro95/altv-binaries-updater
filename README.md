@@ -15,9 +15,11 @@ The updater can be configured using the `config.json` file. The following option
 
 ## Usage 
 ```
-altv-updater 
+altv-updater - Launches the graphical user interface.
+altv-updater --help - Displays the help menu.
+altv-updater --client <launch - branch - dev> - Handles the client binaries.
 ``` 
-(Cli version coming soon)
+
 
 ## Installation
 
