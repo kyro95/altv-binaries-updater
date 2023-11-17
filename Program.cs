@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using System.Reflection;
 using Microsoft.Extensions.Configuration;
 using Spectre.Console;
 
@@ -258,7 +259,7 @@ public class Program
     public static CDNInfo? GetCdnInfo()
     {
         var config = new ConfigurationBuilder()
-            .SetBasePath(Directory.GetCurrentDirectory())
+            .SetBasePath(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? string.Empty)
             .AddJsonFile("config.json", optional: true, reloadOnChange: true)
             .Build();
         
