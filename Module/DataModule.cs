@@ -45,7 +45,8 @@ public class DataModule : ICdnModule
             $"{basePath}/vehmodels.bin",
             $"{basePath}/vehmods.bin",
             $"{basePath}/clothes.bin",
-            $"{basePath}/pedmodels.bin"
+            $"{basePath}/pedmodels.bin",
+            $"{basePath}/weaponmodels.bin"
         };
     }
 
